@@ -1,0 +1,332 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5FC477E6
+P 3200 3350
+F 0 "R1" V 2993 3350 50  0000 C CNN
+F 1 "100K" V 3084 3350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3130 3350 50  0001 C CNN
+F 3 "~" H 3200 3350 50  0001 C CNN
+	1    3200 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FC479E8
+P 3500 1950
+F 0 "R2" V 3293 1950 50  0000 C CNN
+F 1 "470" V 3384 1950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3430 1950 50  0001 C CNN
+F 3 "~" H 3500 1950 50  0001 C CNN
+	1    3500 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV1
+U 1 1 5FC47AF6
+P 3200 2250
+F 0 "RV1" H 3130 2296 50  0000 R CNN
+F 1 "100k" H 3130 2205 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3386F_Vertical" H 3200 2250 50  0001 C CNN
+F 3 "~" H 3200 2250 50  0001 C CNN
+	1    3200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV2
+U 1 1 5FC47B94
+P 3900 2100
+F 0 "RV2" H 3830 2146 50  0000 R CNN
+F 1 "10k" H 3830 2055 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3386F_Vertical" H 3900 2100 50  0001 C CNN
+F 3 "~" H 3900 2100 50  0001 C CNN
+	1    3900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5FC47C84
+P 4350 1950
+F 0 "C3" V 4602 1950 50  0000 C CNN
+F 1 "10nF" V 4511 1950 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4388 1800 50  0001 C CNN
+F 3 "~" H 4350 1950 50  0001 C CNN
+	1    4350 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 5FC47E6F
+P 4250 3400
+F 0 "C2" H 4135 3354 50  0000 R CNN
+F 1 "22uF" H 4135 3445 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 4250 3400 50  0001 C CNN
+F 3 "~" H 4250 3400 50  0001 C CNN
+	1    4250 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 5FC47FBC
+P 2550 2800
+F 0 "C1" V 2802 2800 50  0000 C CNN
+F 1 "2.2uF" V 2711 2800 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 2550 2800 50  0001 C CNN
+F 3 "~" H 2550 2800 50  0001 C CNN
+	1    2550 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT RV3
+U 1 1 5FC481C0
+P 3900 3200
+F 0 "RV3" H 3830 3246 50  0000 R CNN
+F 1 "1k" H 3830 3155 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal" H 3900 3200 50  0001 C CNN
+F 3 "~" H 3900 3200 50  0001 C CNN
+	1    3900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV4
+U 1 1 5FC4835F
+P 4500 2300
+F 0 "RV4" H 4430 2346 50  0000 R CNN
+F 1 "1M" H 4430 2255 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal" H 4500 2300 50  0001 C CNN
+F 3 "~" H 4500 2300 50  0001 C CNN
+	1    4500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5FC48608
+P 1900 2900
+F 0 "J2" H 1794 2575 50  0000 C CNN
+F 1 "In" H 1794 2666 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 1900 2900 50  0001 C CNN
+F 3 "~" H 1900 2900 50  0001 C CNN
+	1    1900 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 5FC48694
+P 5150 2300
+F 0 "J3" H 5178 2276 50  0000 L CNN
+F 1 "out" H 5178 2185 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 5150 2300 50  0001 C CNN
+F 3 "~" H 5150 2300 50  0001 C CNN
+	1    5150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5FC4877C
+P 1850 2150
+F 0 "J1" H 1744 1825 50  0000 C CNN
+F 1 "power" H 1744 1916 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 1850 2150 50  0001 C CNN
+F 3 "~" H 1850 2150 50  0001 C CNN
+	1    1850 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-9V #PWR01
+U 1 1 5FC48C59
+P 2050 2150
+F 0 "#PWR01" H 2050 2025 50  0001 C CNN
+F 1 "-9V" H 2065 2323 50  0000 C CNN
+F 2 "" H 2050 2150 50  0001 C CNN
+F 3 "" H 2050 2150 50  0001 C CNN
+	1    2050 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR03
+U 1 1 5FC48F4C
+P 2250 2150
+F 0 "#PWR03" H 2250 1900 50  0001 C CNN
+F 1 "Earth" H 2250 2000 50  0001 C CNN
+F 2 "" H 2250 2150 50  0001 C CNN
+F 3 "~" H 2250 2150 50  0001 C CNN
+	1    2250 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2050 2250 2050
+Wire Wire Line
+	2250 2050 2250 2150
+$Comp
+L power:Earth #PWR05
+U 1 1 5FC4908D
+P 3200 3000
+F 0 "#PWR05" H 3200 2750 50  0001 C CNN
+F 1 "Earth" H 3200 2850 50  0001 C CNN
+F 2 "" H 3200 3000 50  0001 C CNN
+F 3 "~" H 3200 3000 50  0001 C CNN
+	1    3200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR07
+U 1 1 5FC490E3
+P 4250 3550
+F 0 "#PWR07" H 4250 3300 50  0001 C CNN
+F 1 "Earth" H 4250 3400 50  0001 C CNN
+F 2 "" H 4250 3550 50  0001 C CNN
+F 3 "~" H 4250 3550 50  0001 C CNN
+	1    4250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR06
+U 1 1 5FC4910C
+P 3900 3350
+F 0 "#PWR06" H 3900 3100 50  0001 C CNN
+F 1 "Earth" H 3900 3200 50  0001 C CNN
+F 2 "" H 3900 3350 50  0001 C CNN
+F 3 "~" H 3900 3350 50  0001 C CNN
+	1    3900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR08
+U 1 1 5FC49135
+P 4500 2450
+F 0 "#PWR08" H 4500 2200 50  0001 C CNN
+F 1 "Earth" H 4500 2300 50  0001 C CNN
+F 2 "" H 4500 2450 50  0001 C CNN
+F 3 "~" H 4500 2450 50  0001 C CNN
+	1    4500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR09
+U 1 1 5FC49196
+P 4950 2500
+F 0 "#PWR09" H 4950 2250 50  0001 C CNN
+F 1 "Earth" H 4950 2350 50  0001 C CNN
+F 2 "" H 4950 2500 50  0001 C CNN
+F 3 "~" H 4950 2500 50  0001 C CNN
+	1    4950 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1950 3200 1950
+Wire Wire Line
+	3200 1950 3200 2100
+Wire Wire Line
+	3350 2250 3350 2400
+Wire Wire Line
+	3350 2400 3200 2400
+Connection ~ 3200 2400
+Wire Wire Line
+	2900 2800 2850 2800
+Wire Wire Line
+	2850 2800 2850 3350
+Wire Wire Line
+	2850 3350 3050 3350
+Wire Wire Line
+	3350 3350 3350 2800
+Wire Wire Line
+	3350 2800 3900 2800
+Wire Wire Line
+	3900 2800 3900 3050
+Wire Wire Line
+	4050 3200 4250 3200
+Wire Wire Line
+	4250 3200 4250 3250
+Wire Wire Line
+	3600 2600 3200 2600
+Wire Wire Line
+	3900 2400 3900 2350
+Wire Wire Line
+	3650 1950 3900 1950
+Wire Wire Line
+	3900 1950 4200 1950
+Connection ~ 3900 1950
+Wire Wire Line
+	4500 1950 4500 2150
+Wire Wire Line
+	4650 2300 4950 2300
+$Comp
+L power:Earth #PWR02
+U 1 1 5FC4A5A1
+P 2100 2900
+F 0 "#PWR02" H 2100 2650 50  0001 C CNN
+F 1 "Earth" H 2100 2750 50  0001 C CNN
+F 2 "" H 2100 2900 50  0001 C CNN
+F 3 "~" H 2100 2900 50  0001 C CNN
+	1    2100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-9V #PWR04
+U 1 1 5FC4A5CA
+P 2950 1950
+F 0 "#PWR04" H 2950 1825 50  0001 C CNN
+F 1 "-9V" H 2965 2123 50  0000 C CNN
+F 2 "" H 2950 1950 50  0001 C CNN
+F 3 "" H 2950 1950 50  0001 C CNN
+	1    2950 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2950 1950 3200 1950
+Connection ~ 3200 1950
+Wire Wire Line
+	4950 2500 4950 2400
+Wire Wire Line
+	4050 2100 4050 2350
+Wire Wire Line
+	4050 2350 3900 2350
+Connection ~ 3900 2350
+Wire Wire Line
+	3900 2350 3900 2250
+Wire Wire Line
+	3200 2400 3200 2600
+$Comp
+L Transistor_BJT:BC160 Q1
+U 1 1 5FC4C491
+P 3100 2800
+F 0 "Q1" H 3291 2846 50  0000 L CNN
+F 1 "BC160" H 3291 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 3300 2725 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/1697389.pdf" H 3100 2800 50  0001 L CNN
+	1    3100 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 2600
+$Comp
+L Transistor_BJT:BC160 Q2
+U 1 1 5FC4C504
+P 3800 2600
+F 0 "Q2" H 3991 2646 50  0000 L CNN
+F 1 "BC160" H 3991 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 4000 2525 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/1697389.pdf" H 3800 2600 50  0001 L CNN
+	1    3800 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 2800
+Wire Wire Line
+	2700 2800 2850 2800
+Connection ~ 2850 2800
+Wire Wire Line
+	2100 2800 2400 2800
+$EndSCHEMATC
